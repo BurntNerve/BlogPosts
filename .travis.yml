@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: nr07+sZyMp4PQhe0XQsfcLT3TJFBODYdhI5LZWe1kL/Yg8ncUkWpastf55CixiIIngz8rh9YUAOeXV7mk7dEBH5aAv6sWZp/ofvAOQRgiQtSFddATT0DMEYVJqEFS2WVmTkt9U94N+iswpeZcdF3ljyMxlYdWuy7Wv7WBBf/Me5Rfpk+nknDziaF0/5i9PzX4It1BnHvPjspa+mN9e7lNI+STMB8KIyv108PqVdbrjR7HK4lV+4lHa4P+z344XcG7+LliCgy0W1vjU3WIYC4ERlFWW121GPijCUd76tmTzBcKukK9tXgYvtjWmJ1d8JNxoskDG6zbfG2mX0p1HGhK+1SZ3gZsbY4QLRVks1U5C2B7yC/M5wg2e/WqSTprgz/tnDh5IV3K2uZ5Q35DMtkMRwwPZzmnuDO0iRmUIscY/yQj8fylok/ES+2T7nMCKE0HEdNUZJcH7bP4F5dYmL5bRac+KzUuuql+bu0IeSG6Dxf9Ss8r/lzY/SPFyhoba8pGoPdBu2IsZrdjVFNsOU5j87jfAFg7tyIOAmmWp39Hx9G6MaT3PX7uWlqw8OgFnfkKGMc3MpVTVKFIcJKOZnkRP5r8YEwlP/lIHwlALWOQr8Gj8ffpbPvlZ7htgyU/0y72oj/3Pz24j9zua9355WgcYfaFqA8aA80BFgi+n47/ps=
+  app: blooming-mountain-61916
+  on:
+    repo: brootroot/BlogPosts
